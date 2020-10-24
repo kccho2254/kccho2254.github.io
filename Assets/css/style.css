@@ -1,0 +1,254 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url('../images/previewfile_1171923945.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+  margin: 0;
+}
+
+/* Header, nav bar */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header h1 {
+  display: flex;
+  margin: 0px;
+  padding: 1rem 33px 1rem 2rem;
+  font-weight: lighter;
+  color: white;
+  text-shadow: black 2px 2px;
+  opacity: .9;  
+}
+
+header h4 {
+  color: white;
+  text-shadow: black 2px 2px;
+  font-weight: lighter;
+  opacity: .9;  
+  margin: 20px;
+}
+
+header ul {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+    /*       _
+        .__(.)< (MEOW)
+          \___)   
+  ~~~~~~~~~~~~~~~~~~*/ 
+
+  header img {
+    max-height: 200px;
+    border-radius: 15px;
+    margin: 15px;
+  }
+
+  .dropbtn {
+    background-color: rgb(170, 184, 170);
+    color: white;
+    text-shadow: black 1px 1px;
+    padding: 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    opacity: .9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 15px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dce6e3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+    opacity: .9;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 25px;
+    opacity: .9;
+  }
+    
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+    opacity: .9;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 25px;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #a9b1ac;
+    border-radius: 25px;
+  }
+
+/* ABOUT ME */
+
+  .aboutme {
+    margin: 1px 40px 5px 40px;
+    padding: 1px 0px 40px 20px;
+    height: 200px;
+    background-color: rgb(170, 184, 170);
+    border-radius: 25px;
+    opacity: .9;
+  }
+  
+  .aboutme h2 {
+    font-family: Tahoma, sans-serif;
+    color: white;
+    text-shadow: black 1px 1px;
+    font-weight: lighter;
+  }
+
+  .aboutme a {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  
+  .aboutme p {
+    font-family: Tahoma, sans-serif;
+    color: white;
+    text-shadow: black 1px 1px;
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row p {
+    margin: 1px 10px 5px 10px;
+    padding: 15px 15px 15px 15px;
+    opacity: .9;
+    border-radius: 15px;
+    color: white;
+    text-shadow: black 1px 1px;
+    background-color: rgb(170, 184, 170);
+  }
+
+  .row a {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+
+  .column {
+    flex: 30%;
+    padding: 5px;
+  }
+
+  .justify-center {
+    justify-content: center;
+
+  }
+
+  /* Project images start here */
+
+  .projectone img {
+    margin: 10px;
+    width: 450px;
+    height: 300px;
+ 
+
+  }
+
+  .projecttwo img {
+    margin: 10px;
+    width: 450px;
+    height: 300px;
+
+  }
+
+  .projectthree img {
+    margin: 10px;
+    width: 450px;
+    height: 300px;
+
+
+  }
+
+  .projectfour img {
+    margin: 10px;
+    width: 450px;
+    height: 300px;
+
+  }
+
+  /* Contact Form is here */
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: rgb(159, 184, 159);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border: none;
+    margin-top: 50px;
+    opacity: .9;
+  }
+
+  /* Footer Code here */
+
+  footer section img {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+  }
+
+  footer section {
+    display: flex;
+    opacity: .9;
+    background-color: white;
+    border-top: rgb(223, 221, 221);
+    border-top-style: dashed;
+  }
