@@ -1,113 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevin C Cho</title>
-    
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./Assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Texturina:wght@100&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kevin C Cho</title>
 
-<!-- _
-.__(.)< (MEOW)
-  \___)   
-~~~~~~~~~~~~~~~~~~-->
+    </head>
 
-<body>
-    
-    <header class="banner">
-        <ul>
-            <h1>Kevin Cho -- Web Developer in Training</h1>
-            <h4>"Patience is the foundation of eternal peace. Make anger your enemy. Harm comes to those who know only victory and do not know defeat. Find fault with yourself and not with others. It is in falling short of your own goals that you will surpass those who exceed theirs."
-                - Tokugawa Ieyasu</h4>
-        
-        </ul>
-        <img src="./Assets/images/selfie.jpg" alt="ProfilePicture">
-        <nav class="dropdown">
-            <button class="dropbtn">Navigate</button>
-            <slot class="dropdown-content">
+    <!-- TODO: Formspree; email submission API -->
+
+    <!-- _
+                                .__(.)< (MEOW)
+                                  \___)   
+                                ~~~~~~~~~~~~~~~~~~-->
+
+    <body>
+
+        <header class="banner">
+            <ul>
+                <h1>Kevin Cho -- Web Developer in Training</h1>
+                <h4>"Patience is the foundation of eternal peace. Make anger your enemy. Harm comes to those who know only victory and do not know defeat. Find fault with yourself and not with others. It is in falling short of your own goals that you will surpass those who exceed theirs." - Tokugawa Ieyasu
+                </h4>
+
+            </ul>
+            <img src="./Assets/images/selfie.jpg" alt="ProfilePicture">
+            <nav class="dropdown">
+                <button class="dropbtn">Navigate</button>
+                <slot class="dropdown-content">
                     <a href="#aboutme">Home</a>
-               
+
                     <a href="#projectone">Projects</a>
-                
+
                     <a href="#Contact">Contact</a>
-            </slot>
-        </nav>
-    </header>
+                </slot>
+            </nav>
+        </header>
 
-    <main>
-        <section class="aboutme" id="aboutme">
+        <main>
+            <section class="aboutme" id="aboutme">
                 <h2>About Me</h2>
-                <p>Hi! I am a 4th year student at St. Edwards pursuing a BA in philosophy and certificate for The Coding Bootcamp at UT Austin in Web Development. I found love for Web Development after hearing about good prospects in the market and potential for collaboration from close friends. I already enjoy figuring out mechanical/technical problems should they occur, and software languages were an easy switch. Through this program I aim for profiency in HTML, CSS, Javascript, React, Node.js, Bootstrap, MongoDB, PHP frameworks, MySQL, Heroku, Security and Session Storage, and User Authentication.
+                <p>Kevin Cho is a 4th year student at St. Edwards pursuing a Bachelor of Arts in Philosophy and certificate for The Coding Bootcamp at UT Austin in Full-Stack Web Development. After hearing about good prospects in the market and potential for collaboration from close friends, Kevin found his passion for Web Development. Kevin enjoys figuring out mechanical/technical problems when they occur as well as the logic behind coding, and found software languages to be a fit. Throughout the coding program, Kevin aims to achieve profiency in HTML, CSS, Javascript, React, Node.js, Bootstrap, MongoDB, PHP frameworks, MySQL, Heroku, Security and Session Storage, and User Authentication.
                 </p>
-                <a href="https://docs.google.com/document/d/1kSMytWfjsLWCLkEJo8ICIh8rGQvrV7p1G2qVbrA1-qw/edit?usp=sharing"><p>-- Resume</p></a>
+                <a style="padding-bottom: 5px;" href="https://docs.google.com/document/d/1kSMytWfjsLWCLkEJo8ICIh8rGQvrV7p1G2qVbrA1-qw/edit?usp=sharing">
+                    <p>-- Resume</p>
 
-        </section>
+                </a>
 
-        <div class="row justify-center">
-            <section class="projectone" id="projectone">
-                <img src="./Assets/images/pexels-negative-space-160107.jpg" alt="Laptop">
-                <p><a href="#projectonelink">Project One Title Goes Here</a>
-                    </p>
             </section>
 
-            <section class="projecttwo">
-                <img src="./Assets/images/pexels-quintin-gellar-313782.jpg" alt="Cityscape">
-                <p><a href="#projecttwolink">Project Two Title Goes Here</a>
+            <div class="row justify-center">
+                <section class="projectone" id="projectone">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./Assets/images/MainLanding.png" alt="ServedPreview">
+                            </div>
+
+                            <div class="flip-box-back">
+                                ✦<br>
+                                Served allows users to input current ingredients to generate recipes based on what they already have at home. Each recipe generated from their selected ingredients shows a thumbnail of the recipe, the percentage of which it matches the ingredients the user has listed and a heart button at the bottom of the card to "save" their favorite recipes for later use.
+                                <br>
+                                Saved recipes are reachable with the button in the upper right section of the page. There are also buttons in the navigation menu to see the developers and report bugs/issues with the site.
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        <a href="https://chad1281.github.io/served/">Served: a recipe generator powered by Spoonacular, a web API</a>
+                        <br>
+                        <a href="https://github.com/Chad1281/served">Link to repository</a>
                     </p>
+                </section>
+
+                <section class="projecttwo">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./Assets/images/calendarpreview.png" alt="Calendar">
+                            </div>
+
+                            <div class="flip-box-back">
+                                ✦<br>
+                                asjdhkahjdhakshdksahdsaldhaslkhdlksahdkjsahdlkjsahdlkjsahdsa
+                                <br>
+                                kjahdkjahskdhkjsahdksadhaskjdsahddkjahsdkjhsadsakjhd
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        <a href="https://kccho2254.github.io/Calendar/">Day Planner: a simple work day scheduler for each work day</a>
+                        <br>
+                        <a href="https://github.com/kccho2254/Calendar/">Link to repository</a>
+                    </p>
+                </section>
+
+                <section class="projectthree">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./Assets/images/weatherpreview.png" alt="WeatherPreview">
+                            </div>
+                            <div class="flip-box-back">
+                                ✦<br>
+                                asjdhkahjdhakshdksahdsaldhaslkhdlksahdkjsahdlkjsahdlkjsahdsa
+                                <br>
+                                kjahdkjahskdhkjsahdksadhaskjdsahddkjahsdkjhsadsakjhd
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        <a href="https://kccho2254.github.io/Weather-App/">Weather App: find the weather, powered by OpenWeatherMap</a>
+                        <br>
+                        <a href="https://github.com/kccho2254/Weather-App">Link to repository</a>
+                    </p>
+                </section>
+
+                <section class="projectfour">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./Assets/images/pexels-stephan-seeber-1261728.jpg" alt="Mountains">
+                            </div>
+                            <div class="flip-box-back">
+                                ✦<br>
+                                asjdhkahjdhakshdksahdsaldhaslkhdlksahdkjsahdlkjsahdlkjsahdsa
+                                <br>
+                                kjahdkjahskdhkjsahdksadhaskjdsahddkjahsdkjhsadsakjhd
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        <a href="#projectfourlink">Project Four Title Goes Here</a>
+                        <br>
+                        <a href="">Link to repository</a>
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <!-- <div class="container" id="Contact">
+            <form action=""https://formspree.io/f/{form_id}"" method="post" enctype="”multipart/form-data”" name="”EmailForm”">
+
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Continent</label>
+                <select id="country" name="country">
+
+                    <option value="asia">Asia</option>
+                    <option value="europe">Europe</option>
+                    <option value="africa">Africa</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div> -->
+
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgoygyo" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" style="font-family: inherit;" placeholder="First and Last" required="">
+              <label for="email-address">Email Address</label><br>
+              <input type="email" name="_replyto" id="email-address" style="font-family: inherit;" placeholder="email@domain.tld" required=""><br>
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" id="message" style="font-family: inherit;" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Send" style="font-family:inherit; margin-left: 14px; margin-bottom: 4px;">
+          </form>
+
+        <footer>
+            <section class="row justify-center">
+                <a href="https://stackoverflow.com/users/14278233/kevin"><img src="./Assets/images/stackoverflow.png" alt="StackOverflow"></a>
+                <a href="https://github.com/kccho2254"><img src="./Assets/images/github.png" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/kevin-cho-a9b0861b7/"><img src="./Assets/images/linkedin.png" alt="Linkedin"></a>
             </section>
 
-            <section class="projectthree">
-                <img src="./Assets/images/pexels-simon-migaj-747964.jpg" alt="BloodGulch">
-                <p><a href="#projectthreelink">Project Three Title Goes Here</a>
-                    </p>
-            </section>
+        </footer>
+    </body>
 
-            <section class="projectfour">
-                <img src="./Assets/images/pexels-stephan-seeber-1261728.jpg" alt="Mountains">
-                <p><a href="#projectfourlink">Project Four Title Goes Here</a>
-                    </p>
-            </section>
-        </div>
-    </main>
-
-    <div class="container" id="Contact">
-        <form action="mailto:kccho2254@gmail.com" method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
-        
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Continent</label>
-          <select id="country" name="country">
-            
-            <option value="asia">Asia</option>
-            <option value="europe">Europe</option>
-            <option value="africa">Africa</option>
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
-      </div>
-
-    <footer>
-        <section class="row justify-center">
-           <a href="https://stackoverflow.com/users/14278233/kevin"><img src="./Assets/images/stackoverflow.png" alt="StackOverflow"></a> 
-           <a href="https://github.com/kccho2254"><img src="./Assets/images/github.png" alt="Github"></a>
-            <a href="https://www.linkedin.com/in/kevin-cho-a9b0861b7/"><img src="./Assets/images/linkedin.png" alt="Linkedin"></a>
-       </section>
-
-    </footer>
-</body>
 </html>

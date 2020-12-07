@@ -6,11 +6,14 @@ CSS
 HTML
 
 # Link
+kccho2254.github.io
 https://github.com/kccho2254/kccho2254.github.io
 ![screenshot](./Assets/images/screenshot.png)
 
 # Credits
+## [w3schools](https://www.w3schools.com/html/html_forms.asp)
 
+Formspree is a free web API for contact forms of various kinds!
 ## [w3schools](https://www.w3schools.com/html/html_forms.asp)
 
 The structure for the contact form came from this website
@@ -27,7 +30,7 @@ Helpful website for learning Markdown syntax
 # Contributing
 Feel free to reach out or request pulls from github. My classmates and class instructor Calvin are also to thank for helping me learn.
 
-## License
+# License
 © Kevin C Cho
 
 Licensed under The Unlicense
