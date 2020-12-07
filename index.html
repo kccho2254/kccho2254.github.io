@@ -3,10 +3,13 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./Assets/css/style.css">
+        
+        <link defer rel="stylesheet" href="./Assets/css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Texturina:wght@100&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Kevin C Cho</title>
 
     </head>
@@ -14,9 +17,9 @@
     <!-- TODO: Formspree; email submission API -->
 
     <!-- _
-                                .__(.)< (MEOW)
-                                  \___)   
-                                ~~~~~~~~~~~~~~~~~~-->
+     .__(.)< (MEOW)
+       \___)   
+     ~~~~~~~~~~~~~~~~~~-->
 
     <body>
 
@@ -35,13 +38,14 @@
 
                     <a href="#projectone">Projects</a>
 
-                    <a href="#Contact">Contact</a>
+                    <a href="#fs-frm">Contact</a>
                 </slot>
             </nav>
         </header>
 
         <main>
-            <section class="aboutme" id="aboutme">
+            <section class="aboutme container" style="margin-top: 0px;background-color: rgb(170, 184, 170);
+            opacity: .9;border-radius: 15px;" id="aboutme">
                 <h2>About Me</h2>
                 <p>Kevin Cho is a 4th year student at St. Edwards pursuing a Bachelor of Arts in Philosophy and certificate for The Coding Bootcamp at UT Austin in Full-Stack Web Development. After hearing about good prospects in the market and potential for collaboration from close friends, Kevin found his passion for Web Development. Kevin enjoys figuring out mechanical/technical problems when they occur as well as the logic behind coding, and found software languages to be a fit. Throughout the coding program, Kevin aims to achieve profiency in HTML, CSS, Javascript, React, Node.js, Bootstrap, MongoDB, PHP frameworks, MySQL, Heroku, Security and Session Storage, and User Authentication.
                 </p>
@@ -175,9 +179,9 @@
               <label for="full-name">Full Name</label>
               <input type="text" name="name" id="full-name" style="font-family: inherit;" placeholder="First and Last" required="">
               <label for="email-address">Email Address</label><br>
-              <input type="email" name="_replyto" id="email-address" style="font-family: inherit;" placeholder="email@domain.tld" required=""><br>
+              <input type="email" name="_replyto" id="email-address" style="padding:3px; font-family: inherit;" placeholder="email@domain.tld" required=""><br>
               <label for="message">Message</label>
-              <textarea rows="5" name="message" id="message" style="font-family: inherit;" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <textarea rows="5" name="message" id="message" style="padding: 3px; font-family: inherit;" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </fieldset>
             <input type="submit" value="Send" style="font-family:inherit; margin-left: 14px; margin-bottom: 4px;">

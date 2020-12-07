@@ -5,15 +5,14 @@ This is a deployed portfolio of my future work samples and a brief introduction 
 CSS
 HTML
 
-# Link
-kccho2254.github.io
+# Link: [kccho2254.github.io](kccho2254.github.io)
 https://github.com/kccho2254/kccho2254.github.io
 ![screenshot](./Assets/images/screenshot.png)
 
 # Credits
 ## [Formspree](https://formspree.io/)
 
-Formspree is a free web API for contact forms of various kinds!
+Formspree is a free web API for contact forms of various kinds
 ## [w3schools](https://www.w3schools.com/html/html_forms.asp)
 
 The structure for the contact form came from this website
