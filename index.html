@@ -1,166 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./Assets/css/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Texturina:wght@100&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kevin C Cho</title>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Texturina:wght@100&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin C Cho</title>
 
-    </head>
+</head>
 
-    <!-- TODO: Formspree; email submission API -->
+<!-- TODO: Formspree; email submission API -->
 
-    <!-- _
-                                .__(.)< (MEOW)
-                                  \___)   
-                                ~~~~~~~~~~~~~~~~~~-->
+<!-- _
+     .__(.)< (MEOW)
+       \___)   
+     ~~~~~~~~~~~~~~~~~~-->
 
-    <body>
+<body>
 
-        <header class="banner">
-            <ul>
-                <h1>Kevin Cho -- Web Developer in Training</h1>
-                <h4>"Patience is the foundation of eternal peace. Make anger your enemy. Harm comes to those who know only victory and do not know defeat. Find fault with yourself and not with others. It is in falling short of your own goals that you will surpass those who exceed theirs." - Tokugawa Ieyasu
-                </h4>
+    <header class="banner">
+        <ul>
+            <h1>Kevin Cho -- Web Developer in Training</h1>
+            <h4>"Patience is the foundation of eternal peace. Make anger your enemy. Harm comes to those who know only
+                victory and do not know defeat. Find fault with yourself and not with others. It is in falling short of
+                your own goals that you will surpass those who exceed theirs." - Tokugawa Ieyasu
+            </h4>
 
-            </ul>
-            <img src="./Assets/images/selfie.jpg" alt="ProfilePicture">
-            <nav class="dropdown">
-                <button class="dropbtn">Navigate</button>
-                <slot class="dropdown-content">
-                    <a href="#aboutme">Home</a>
+        </ul>
+        <img src="./Assets/images/selfie.jpg" alt="ProfilePicture">
+        <nav class="dropdown">
+            <button class="dropbtn">Navigate</button>
+            <slot class="dropdown-content">
+                <a href="#aboutme">Home</a>
 
-                    <a href="#projectone">Projects</a>
+                <a href="#projectone">Projects</a>
 
-                    <a href="#Contact">Contact</a>
-                </slot>
-            </nav>
-        </header>
+                <a href="#contact">Contact</a>
+            </slot>
+        </nav>
+    </header>
 
-        <main>
-            <section class="aboutme" id="aboutme">
-                <h2>About Me</h2>
-                <p>Kevin Cho is a 4th year student at St. Edwards pursuing a Bachelor of Arts in Philosophy and certificate for The Coding Bootcamp at UT Austin in Full-Stack Web Development. After hearing about good prospects in the market and potential for collaboration from close friends, Kevin found his passion for Web Development. Kevin enjoys figuring out mechanical/technical problems when they occur as well as the logic behind coding, and found software languages to be a fit. Throughout the coding program, Kevin aims to achieve profiency in HTML, CSS, Javascript, React, Node.js, Bootstrap, MongoDB, PHP frameworks, MySQL, Heroku, Security and Session Storage, and User Authentication.
+    <main>
+        <section class="aboutme" id="aboutme">
+            <h2>About Me</h2>
+            <p>Kevin Cho is a St. Edwards graduate currently seeking certification with
+                The Coding Bootcamp at UT Austin for Full-Stack Web Development. After hearing about good prospects
+                in the market and potential for collaboration from close friends, Kevin found his passion for Web
+                Development. Kevin enjoys figuring out mechanical/technical problems when they occur as well as the
+                logic behind coding, and found software languages to be a fit. Throughout the coding program, Kevin aims
+                to achieve profiency in HTML, CSS, Javascript, React, Node.js, Bootstrap, MongoDB, PHP frameworks,
+                MySQL, Heroku, Security and Session Storage, and User Authentication.
+            </p>
+            <a style="padding-bottom: 5px;"
+                href="https://docs.google.com/document/d/1kSMytWfjsLWCLkEJo8ICIh8rGQvrV7p1G2qVbrA1-qw/edit?usp=sharing">
+                <p>-- Resume</p>
+
+            </a>
+
+        </section>
+
+        <div class="row justify-center">
+            <section class="projectone" id="projectone">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./Assets/images/MainLanding.png" alt="ServedPreview">
+                        </div>
+
+                        <div class="flip-box-back">
+                            ✦<br>
+                            Served allows users to input current ingredients to generate recipes based on what they
+                            already have at home. Each recipe generated from their selected ingredients shows a
+                            thumbnail of the recipe, the percentage of which it matches the ingredients the user has
+                            listed and a heart button at the bottom of the card to "save" their favorite recipes for
+                            later use.
+                            <br>
+                            Saved recipes are reachable with the button in the upper right section of the page. There
+                            are also buttons in the navigation menu to see the developers and report bugs/issues with
+                            the site.
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    <a href="https://chad1281.github.io/served/">Served: a recipe generator powered by Spoonacular
+                        API</a>
+                    <br>
+                    <a href="https://github.com/Chad1281/served">Link to repository</a>
                 </p>
-                <a style="padding-bottom: 5px;" href="https://docs.google.com/document/d/1kSMytWfjsLWCLkEJo8ICIh8rGQvrV7p1G2qVbrA1-qw/edit?usp=sharing">
-                    <p>-- Resume</p>
-
-                </a>
-
             </section>
 
-            <div class="row justify-center">
-                <section class="projectone" id="projectone">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <img src="./Assets/images/MainLanding.png" alt="ServedPreview">
-                            </div>
+            <section class="projecttwo">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./Assets/images/calendarpreview.png" alt="Calendar">
+                        </div>
 
-                            <div class="flip-box-back">
-                                ✦<br>
-                                Served allows users to input current ingredients to generate recipes based on what they already have at home. Each recipe generated from their selected ingredients shows a thumbnail of the recipe, the percentage of which it matches the ingredients the user has listed and a heart button at the bottom of the card to "save" their favorite recipes for later use.
-                                <br>
-                                Saved recipes are reachable with the button in the upper right section of the page. There are also buttons in the navigation menu to see the developers and report bugs/issues with the site.
-                            </div>
+                        <div class="flip-box-back">
+                            ✦<br>
+                            This app is a simple calendar used for a single work day, allowing the user to type to-do
+                            items in each hour. The current hour will show up as red, past hours will be grey, and
+                            future hours will be green.
+                            <br>
+                            It uses Moment.js to display the current date and time, and local storage to keep to-do
+                            items from disappearing upon closing the tab in the user's browser. The user can very easily
+                            keep track of their own tasks from their local file system, though the live website is
+                            editable by anyone.
                         </div>
                     </div>
-                    <p>
-                        <a href="https://chad1281.github.io/served/">Served: a recipe generator powered by Spoonacular API</a>
-                        <br>
-                        <a href="https://github.com/Chad1281/served">Link to repository</a>
-                    </p>
-                </section>
+                </div>
+                <p>
+                    <a href="https://kccho2254.github.io/Calendar/">Day Planner: a simple work day scheduler for each
+                        work day</a>
+                    <br>
+                    <a href="https://github.com/kccho2254/Calendar/">Link to repository</a>
+                </p>
+            </section>
 
-                <section class="projecttwo">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <img src="./Assets/images/calendarpreview.png" alt="Calendar">
-                            </div>
-
-                            <div class="flip-box-back">
-                                ✦<br>
-                                This app is a simple calendar used for a single work day, allowing the user to type to-do items in each hour. The current hour will show up as red, past hours will be grey, and future hours will be green.
-                                <br>
-                                It uses Moment.js to display the current date and time, and local storage to keep to-do items from disappearing upon closing the tab in the user's browser. The user can very easily keep track of their own tasks from their local file system, though the live website is editable by anyone.
-                            </div>
+            <section class="projectthree">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./Assets/images/weatherpreview.png" alt="WeatherPreview">
+                        </div>
+                        <div class="flip-box-back">
+                            ✦<br>
+                            This is a simple weather recording app that will display the weather of any city put into
+                            the search query. The temperature, UV index, humidity, and "feels like" temperature of the
+                            current day will appear, as will the forecast for the next 5 days.
+                            <br>
+                            This app is powered by a free API from OpenWeatherMap.org. Server requests are coded using
+                            AJAX and JSON formats.
                         </div>
                     </div>
-                    <p>
-                        <a href="https://kccho2254.github.io/Calendar/">Day Planner: a simple work day scheduler for each work day</a>
-                        <br>
-                        <a href="https://github.com/kccho2254/Calendar/">Link to repository</a>
-                    </p>
-                </section>
+                </div>
+                <p>
+                    <a href="https://kccho2254.github.io/Weather-App/">Weather App: find the weather, powered by
+                        OpenWeatherMap</a>
+                    <br>
+                    <a href="https://github.com/kccho2254/Weather-App">Link to repository</a>
+                </p>
+            </section>
 
-                <section class="projectthree">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <img src="./Assets/images/weatherpreview.png" alt="WeatherPreview">
-                            </div>
-                            <div class="flip-box-back">
-                                ✦<br>
-                                This is a simple weather recording app that will display the weather of any city put into the search query. The temperature, UV index, humidity, and "feels like" temperature of the current day will appear, as will the forecast for the next 5 days.
-                                <br>
-                                This app is powered by a free API from OpenWeatherMap.org. Server requests are coded using AJAX and JSON formats.
-                            </div>
+            <section class="projectfour">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="./Assets/images/monnaiepreview.png" alt="Mountains">
+                        </div>
+                        <div class="flip-box-back">
+                            ✦<br>
+                            This app is a wedding budget planner, allowing the user to create budget items, budget
+                            categories, to-do lists, and see their data displayed as estimated/actual costs through pie,
+                            bar and line graphs. Users can edit, delete, and add these items, which route to an API
+                            built with Express, Node, and Sequelize.
+                            <br>
+                            The MySQL database holding user data is run on my computer through MySQL Workbench, and
+                            deployed to Heroku with JawsDB. The graphs are built using Chart.js, accounts are created
+                            with user authentication via Passport.js, and repository updates are screened by ESlint and
+                            Travis CI before being pushed to the main branch.
                         </div>
                     </div>
-                    <p>
-                        <a href="https://kccho2254.github.io/Weather-App/">Weather App: find the weather, powered by OpenWeatherMap</a>
-                        <br>
-                        <a href="https://github.com/kccho2254/Weather-App">Link to repository</a>
-                    </p>
-                </section>
-
-                <section class="projectfour">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <img src="./Assets/images/monnaiepreview.png" alt="Mountains">
-                            </div>
-                            <div class="flip-box-back">
-                                ✦<br>
-                                This app is a wedding budget planner, allowing the user to create budget items, budget categories, to-do lists, and see their data displayed as estimated/actual costs through pie, bar and line graphs. Users can edit, delete, and add these items, which route to an API built with Express, Node, and Sequelize.
-                                <br>
-                                The MySQL database holding user data is run on my computer through MySQL Workbench, and deployed to Heroku with JawsDB. The graphs are built using Chart.js, accounts are created with user authentication via Passport.js, and repository updates are screened by ESlint and Travis CI before being pushed to the main branch.
-                            </div>
-                        </div>
-                    </div>
-                    <p>
-                        <a href="https://salty-forest-71574.herokuapp.com/">Monnaie: a wedding budgeting tool</a>
-                        <br>
-                        <a href="https://github.com/kccho2254/monnaie">Link to repository</a>
-                    </p>
-                </section>
-            </div>
-        </main>
-
-        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgoygyo" method="post">
+                </div>
+                <p>
+                    <a href="https://salty-forest-71574.herokuapp.com/">Monnaie: a wedding budgeting tool</a>
+                    <br>
+                    <a href="https://github.com/kccho2254/monnaie">Link to repository</a>
+                </p>
+            </section>
+        </div>
+    </main>
+    <section id="contact">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgoygyo"
+            method="post">
             <fieldset id="fs-frm-inputs">
-              <label for="full-name">Full Name</label>
-              <input type="text" name="name" id="full-name" style="font-family: inherit;" placeholder="First and Last" required="">
-              <label for="email-address">Email Address</label><br>
-              <input type="email" name="_replyto" id="email-address" style="font-family: inherit;" placeholder="email@domain.tld" required=""><br>
-              <label for="message">Message</label>
-              <textarea rows="5" name="message" id="message" style="font-family: inherit;" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" style="font-family: inherit;" placeholder="First and Last"
+                    required="">
+                <label for="email-address">Email Address</label><br>
+                <input type="email" name="_replyto" id="email-address" style="font-family: inherit;"
+                    placeholder="email@domain.tld" required=""><br>
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message" style="font-family: inherit;"
+                    placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+                    required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </fieldset>
             <input type="submit" value="Send" style="font-family:inherit; margin-left: 14px; margin-bottom: 4px;">
-          </form>
-
-        <footer>
-            <section class="row justify-center">
-                <a href="https://stackoverflow.com/users/14278233/kevin"><img src="./Assets/images/stackoverflow.png" alt="StackOverflow"></a>
-                <a href="https://github.com/kccho2254"><img src="./Assets/images/github.png" alt="Github"></a>
-                <a href="https://www.linkedin.com/in/kevin-cho-a9b0861b7/"><img src="./Assets/images/linkedin.png" alt="Linkedin"></a>
-            </section>
-        </footer>
-    </body>
+        </form>
+    </section>
+    <footer>
+        <section class="row justify-center">
+            <a href="https://stackoverflow.com/users/14278233/kevin"><img src="./Assets/images/stackoverflow.png"
+                    alt="StackOverflow"></a>
+            <a href="https://github.com/kccho2254"><img src="./Assets/images/github.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/kevin-cho-a9b0861b7/"><img src="./Assets/images/linkedin.png"
+                    alt="Linkedin"></a>
+        </section>
+    </footer>
+</body>
 
 </html>
