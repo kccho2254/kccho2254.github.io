@@ -116,7 +116,6 @@ header ul {
   .aboutme {
     margin: 1px 40px 5px 40px;
     padding: 1px 0px 60px 20px;
-    height: 200px;
     background-color: rgb(170, 184, 170);
     border-radius: 25px;
     opacity: .9;
@@ -228,6 +227,10 @@ header ul {
     height: 300px;
   }
   .projectfour img {
+    width: 450px;
+    height: 300px;
+  }
+  .projectfive img {
     width: 450px;
     height: 300px;
   }
