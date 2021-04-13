@@ -226,6 +226,10 @@ header ul {
     width: 450px;
     height: 300px;
   }
+  .projectthreeandahalf img {
+    width: 450px;
+    height: 300px;
+  }
   .projectfour img {
     width: 450px;
     height: 300px;
@@ -286,9 +290,16 @@ header ul {
   section.projectthree{
     margin: 5px;
   }
+  section.projectthreeandahalf{
+    margin: 5px;
+  }
   section.projectfour{
     margin: 5px;
   }
+  section.projectfive{
+    margin: 5px;
+  }
+ 
   /* Footer Code here */
 
   footer section img {
