@@ -316,6 +316,7 @@ footer section {
     }
     div.flip-box-back {
         overflow: scroll;
+        -webkit-overflow-scrolling: touch;
     }
     .dropdown-content {
         min-width: 115px;
@@ -343,6 +344,7 @@ footer section {
     }
     div.flip-box-back {
         overflow: scroll;
+        -webkit-overflow-scrolling: touch;
     }
     .row p {
         margin: 5px 10px;
