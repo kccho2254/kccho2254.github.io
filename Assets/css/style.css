@@ -289,6 +289,14 @@ footer section {
     border-top-style: dashed;
 }
 
+@media(max-width: 960px) {
+    .row p {
+      margin-bottom: 0;
+    }
+    fieldset {
+      margin-top: 10px;
+    }
+}
 
 @media(max-width: 500px) {
 
@@ -304,7 +312,8 @@ footer section {
         perspective: 1000px; /* Remove this if you don't want the 3D effect */
     }
     .row p {
-        margin: 15px 10px 5px;
+        margin: 10px;
+
     }
     .dropdown-content {
         min-width: 115px;
@@ -334,12 +343,11 @@ footer section {
         overflow: scroll;
     }
     .row p {
-        margin: 15px 10px 5px;
+        margin: 5px 10px;
     }
     .dropdown-content {
         min-width: 105px;
     }
-   
 }
 
 @media(max-width: 310px) {
@@ -349,6 +357,6 @@ footer section {
         height: 150px;
     }
     .dropbtn {
-      margin: 0 0 10px 0;
+        margin: 0 0 10px;
     }
 }
