@@ -53,27 +53,32 @@ header ul {
 
 header img {
     max-height: 200px;
-    border-radius: 5px;
-    margin: 15px;
+    margin-right: 2.5px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
 }
 
 .dropbtn {
     background-color: rgb(170, 184, 170);
+    min-height: 50px;
     color: white;
     text-shadow: black 1px 1px;
     padding: 16px;
-    margin-top: 10px;
+    margin-left: 2.5px;
     font-size: 16px;
     border: none;
-    border-radius: 15px;
     opacity: .9;
 }
 
 .dropdown {
     position: relative;
-    display: inline-block;
-    border-radius: 15px;
-    margin: 10px ​15px 5px 5px;
+    margin-left: 2.5px;
+
 }
 
 .dropdown-content {
@@ -81,9 +86,9 @@ header img {
     position: absolute;
     background-color: #dce6e3;
     min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    min-height: 150px;
+    margin-left: 2.5px;
     z-index: 1;
-    border-radius: 15px;
     opacity: .9;
 }
 
@@ -92,24 +97,20 @@ header img {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    border-radius: 15px;
     opacity: .9;
 }
 
 .dropdown-content a:hover {
     background-color: #ddd;
-    border-radius: 15px;
     opacity: .9;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-    border-radius: 15px;
 }
 
 .dropdown:hover .dropbtn {
     background-color: #a9b1ac;
-    border-radius: 15px;
 }
 
 /* ABOUT ME */
@@ -147,7 +148,6 @@ header img {
 .row p {
     padding: 15px;
     opacity: .9;
-    border-radius: 15px;
     color: white;
     text-shadow: black 1px 1px;
     background-color: rgb(170, 184, 170);
@@ -252,7 +252,6 @@ input[type="submit" i] {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 

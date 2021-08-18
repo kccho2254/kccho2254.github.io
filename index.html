@@ -34,17 +34,19 @@
             </h4>
 
         </ul>
-        <img src="./Assets/images/me.jpg" alt="ProfilePicture">
-        <nav class="dropdown">
-            <button class="dropbtn">Navigate</button>
-            <slot class="dropdown-content">
-                <a href="#aboutme">Home</a>
-
-                <a href="#projectone">Projects</a>
-
-                <a href="#contact">Contact</a>
-            </slot>
-        </nav>
+        <div class="header-container">
+            <img src="./Assets/images/me.jpg" alt="ProfilePicture">
+            <nav class="dropdown">
+                <button class="dropbtn">Navigate</button>
+                <slot class="dropdown-content">
+                    <a href="#aboutme">Home</a>
+    
+                    <a href="#projectone">Projects</a>
+    
+                    <a href="#contact">Contact</a>
+                </slot>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -137,7 +139,7 @@
                             ✦<br>
                             This is a multi-page, AWS RDS-powered reimbursement application, featuring multiple user roles, Apache Tomcat servlet middleware, HTML/CSS/JS frontend, and server-side Java code. Routing exceptions are handled with customized error and 404 pages.
                             <br>
-                            It features file logging and unit testing with log4j and JUnit, object date-mapping with Jackson databinding, and package management with Maven. Tested on a local endpoint, it stands capable to deploy to a live environment without need to change the source code.
+                            It features event logging and unit testing with log4j and JUnit, object date-mapping with Jackson databinding, and package management with Maven. Tested on a local endpoint, it stands capable to deploy to a live environment without need to change the source code.
                             </p>
                         </div>
                     </div>
