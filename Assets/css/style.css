@@ -173,6 +173,7 @@ header img {
 .picture img {
     width: 450px;
     height: 300px;
+    cursor: pointer;
 }
 
 
@@ -192,12 +193,13 @@ header img {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    cursor: pointer;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-box:hover .flip-box-inner {
+/* .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
-}
+} */
 
 /* Position the front and back side */
 .flip-box-front,
@@ -213,13 +215,14 @@ header img {
 .flip-box-front {
     background-color: #bbb;
     color: black;
+    z-index: 3;
 }
 
 /* Style the back side */
 .flip-box-back {
     background-color: rgb(170, 184, 170);
     color: white;
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
     overflow-y: auto;
 }
 
