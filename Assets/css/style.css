@@ -115,7 +115,7 @@ header img {
 
 /* ABOUT ME */
 
-.aboutme {
+.heading {
     margin: 1px 40px 5px;
     padding: 1px 0 60px 20px;
     background-color: rgb(170, 184, 170);
@@ -123,18 +123,18 @@ header img {
     opacity: .9;
 }
 
-.aboutme h2 {
+.heading h2 {
     color: white;
     text-shadow: black 1px 1px;
     font-weight: lighter;
 }
 
-.aboutme a {
+.heading a {
     text-decoration: underline;
     text-decoration-color: white;
 }
 
-.aboutme p {
+.heading p {
     color: white;
     text-shadow: black 1px 1px;
     margin: 15px;
@@ -228,6 +228,14 @@ header img {
 
 /* Contact Form is here */
 
+.contact-h2 {
+    color: black;
+    text-shadow: white 1px 1px;
+    font-weight: lighter;
+    padding: 14px 0 0 14px;
+    margin: 0 0 4px 0;
+}
+
 form#fs-frm {
     background-color: white;
     opacity: .9;
@@ -239,13 +247,13 @@ fieldset {
 }
 
 input[type=text],
+input[type=email],
 select,
-textarea {
+textarea
+{
     width: 100%;
-    padding: 12px;
+    padding: 4px 4px 6px 6px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 4px;
     resize: vertical
 }
 
