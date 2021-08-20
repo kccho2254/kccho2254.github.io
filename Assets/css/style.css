@@ -304,6 +304,9 @@ footer section {
     .row p {
         margin-bottom: 0;
     }
+    #contact {
+        margin-top: 10px;
+    }
     fieldset {
         margin-top: 10px;
     }
@@ -333,7 +336,22 @@ footer section {
     }
 }
 
-@media(max-width: 380px) {
+@media(max-width: 390px) {
+
+    .header-container {
+        flex-flow: column;
+    }
+    .header-container img {
+        margin-bottom: 15px;
+    }
+    .dropdown,
+    .dropbtn,
+    .dropdown-content {
+        margin: 0;
+    }
+    .dropdown {
+        max-width: 95.15px;
+    }
 
     .picture img {
         width: 100%;
@@ -364,25 +382,11 @@ footer section {
     }
 }
 
-@media(max-width: 310px) {
+@media(max-width: 325px) {
 
     .heading p {
         font-size: 8px;
         text-shadow: black .5px .5px;
-    }
-    .header-container {
-        flex-flow: column;
-    }
-    .header-container img {
-        margin-bottom: 15px;
-    }
-    .dropdown,
-    .dropbtn,
-    .dropdown-content {
-        margin: 0;
-    }
-    .dropdown {
-        max-width: 95.15px;
     }
     .flip-box {
         width: 225px;
