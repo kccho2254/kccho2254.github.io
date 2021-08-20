@@ -366,11 +366,26 @@ footer section {
 
 @media(max-width: 310px) {
 
+    .heading p {
+        font-size: 8px;
+        text-shadow: black .5px .5px;
+    }
+    .header-container {
+        flex-flow: column;
+    }
+    .header-container img {
+        margin-bottom: 15px;
+    }
+    .dropdown,
+    .dropbtn,
+    .dropdown-content {
+        margin: 0;
+    }
+    .dropdown {
+        max-width: 95.15px;
+    }
     .flip-box {
         width: 225px;
         height: 150px;
-    }
-    .dropbtn {
-        margin: 0 0 10px;
     }
 }
