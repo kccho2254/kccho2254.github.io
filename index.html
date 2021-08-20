@@ -27,7 +27,7 @@
 
     <header class="banner">
         <ul>
-            <h1>Kevin Cho -- Software Developer </h1>
+            <h1>Kevin Cho ✦ Software Developer </h1>
             <h4>"Patience is the foundation of eternal peace. Make anger your enemy. Harm comes to those who know only
                 victory and do not know defeat. Find fault with yourself and not with others. It is in falling short of
                 your own goals that you will surpass those who exceed theirs." - Tokugawa Ieyasu
@@ -67,7 +67,9 @@
             </p>
             <a style="padding-bottom: 5px;"
                 href="https://docs.google.com/document/d/1kSMytWfjsLWCLkEJo8ICIh8rGQvrV7p1G2qVbrA1-qw/edit?usp=sharing">
-                <p>-- Resume</p>
+               
+                <p style="margin-right:5px">✦</p>
+                <p class="resume-text" style="margin-left: 0;">Resume</p>
 
             </a>
 
@@ -123,15 +125,15 @@
                                 books, view owned items, and make payments. Employees can add/remove items, edit item
                                 details, and view payments.
                                 <br>
-                                It is written in Java, and implements the DAO interface pattern for service layers and
-                                business logic. It uses the JDBC Java API to interface with a PostgreSQL database, which
-                                persists data such as offer, book, customer, employee, and system details.
+                                It implements the DAO interface pattern for service layers and
+                                business logic, and uses the JDBC Java API to interface with a PostgreSQL database. 
+                                Persisted data such as offer, book, customer, employee, and system details are stored in five relational tables.
                             </p>
                         </div>
                     </div>
                 </div>
                 <p>
-                    The Bookstore: Run in console, CRUD operational
+                    The Bookstore: A console line interface software
                     <br>
                     <a href="https://github.com/kccho2254/console-bookstore">Link to repository</a>
                 </p>
@@ -146,14 +148,12 @@
                         <div class="flip-box-back">
                             <p>
                                 ✦<br>
-                                This is a multi-page, AWS RDS-powered reimbursement application, featuring multiple user
-                                roles, Apache Tomcat servlet middleware, HTML/CSS/JS frontend, and server-side Java
-                                code. Routing exceptions are handled with customized error and 404 pages.
+                                This is an AWS RDS-powered reimbursement application, featuring multiple user
+                                roles, pages, HttpServlet middleware, HttpSession objects, HTML/CSS/JS frontend, and server-side Java. Routing exceptions are handled with customized error and 404 pages.
                                 <br>
                                 It features event logging and unit testing with log4j and JUnit, object date-mapping
-                                with Jackson databinding, and package management with Maven. Tested on a local endpoint,
-                                it stands capable to deploy to a live environment without need to change the source
-                                code.
+                                with Jackson databinding, and package management with Maven. It is configured to port 8080 with Apache Tomcat 8.5.
+                                
                             </p>
                         </div>
                     </div>
@@ -271,7 +271,7 @@
                     placeholder="email@domain.tld" required=""><br>
                 <label for="message">Message</label>
                 <textarea rows="5" name="message" id="message" style="font-family: inherit;"
-                    placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+                    placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     required=""></textarea>
                 <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </fieldset>

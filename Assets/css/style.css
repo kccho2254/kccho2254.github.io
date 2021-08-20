@@ -130,14 +130,30 @@ header img {
 }
 
 .heading a {
-    text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row;
+    max-width: 75px;
+
 }
 
 .heading p {
     color: white;
     text-shadow: black 1px 1px;
     margin: 15px;
+}
+
+.resume-text {
+    font-size: 18px;
+}
+
+.resume-text,
+.resume-text:hover{
+    max-width: 75px;
+}
+.resume-text:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .row {
