@@ -65,7 +65,7 @@ header img {
 
 .dropbtn {
     background-color: rgb(170, 184, 170);
-    min-height: 50px;
+    max-height: 50px;
     color: white;
     text-shadow: black 1px 1px;
     padding: 16px;
@@ -78,6 +78,7 @@ header img {
 .dropdown {
     position: relative;
     margin-left: 2.5px;
+    max-height: 50px;
 
 }
 
