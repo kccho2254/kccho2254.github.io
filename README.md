@@ -6,7 +6,7 @@ CSS
 HTML
 
 # Link
-* [kccho2254.github.io](kccho2254.github.io)
+* [kccho2254.github.io](https://kccho2254.github.io)
 
 
 ![screenshot](./Assets/images/screenshot.png)
