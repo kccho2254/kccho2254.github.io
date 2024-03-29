@@ -1,5 +1,5 @@
 # CSS-Portfolio
-This is a deployed portfolio of my future work samples and a brief introduction to me. I built a basic website for showing who I am, my Resume, social media, placeholders for software projects, a contact page, and a self-portrait. I plan on updating the projects section in the future.
+This is a portfolio of my future work samples and a brief introduction to me. I built a basic website for showing who I am, my Resume, social media, placeholders for software projects, a contact page, and a self-portrait. I plan on updating the projects section in the future.
 
 # Languages Used
 CSS
